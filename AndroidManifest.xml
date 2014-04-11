@@ -7,7 +7,9 @@
     <uses-sdk
         android:minSdkVersion="14"
         android:targetSdkVersion="18" />
-
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -25,6 +27,27 @@
         </activity>
          <activity android:name="com.xg.mycollege.MainActivity"
                     android:label="@string/app_name"/>
+         <activity android:name="com.xg.timetable.TimetableMain"
+             android:label="@string/app_name"></activity>
+         <activity android:name="com.xg.timetable.SetActivity"
+             android:label="@string/app_name" ></activity>
+         <activity android:name="com.xg.timetable.RemindActivity"
+             android:theme="@android:style/Theme.Dialog"></activity>
+         <receiver android:name="com.xg.timetable.RemindReceiver"
+             android:process=":remote"></receiver>
+         <receiver
+            android:name="com.xg.timetable.LauncherReceiver"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.xg.timetable.SetQuietService" >
+            <intent-filter>
+                <action android:name="zyb.org.service.QUIET_SERVICE" />
+            </intent-filter>
+        </service>
+        
     </application>
 
 </manifest>
