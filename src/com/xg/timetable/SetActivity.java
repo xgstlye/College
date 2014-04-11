@@ -225,16 +225,7 @@ public class SetActivity extends Activity {
 
 
 
-	//如果点击“关于我们”的TextView，则跳转
-	public void click_us(View v){
-		Intent intent = new Intent(SetActivity.this, AboutUsActivity.class);
-		startActivity(intent);
-	}
-	//如果点击“版本支持”的TextView，则跳转
-	public void click_version(View v){
-		Intent intent = new Intent(SetActivity.this, VersionActivity.class);
-		startActivity(intent);
-	}
+	
 	public void click_revision(View v){
 		Log.i("MyDebug", "revision");
 	} 
