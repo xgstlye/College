@@ -11,9 +11,6 @@
     <string name="message_set">消息设置</string>
     <string name="quiet">开启上课自动静音</string>
     <string name="remind">开启课前振动提醒</string>
-    <string name="about_app">软件相关</string>
-    <string name="revision">版本支持</string>
-    <string name="us">关于作者</string>
     <string name="heading">课表信息</string>
     <string name="exit">退出</string>
     <string name="back">返回</string>
@@ -31,5 +28,11 @@
     <string name="input_course_jieshu">总节数不超过4</string>
     <string name="to">至</string>
     <string name="jieshulimit">1 2 3 4</string>
+    
+    <color name="Myblue">#848284</color>
+	<color name="Myblack">#000000</color>
+	<color name="MyWhite">#FFFFFD</color>
+	<color name="TitleWhite">#000000</color>
+	<color name="MyGreen">#64B7AD</color>
 
 </resources>

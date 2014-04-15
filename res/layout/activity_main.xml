@@ -1,7 +1,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical" 
+    android:background="@drawable/back">
 
     <!--
 <LinearLayout
@@ -51,7 +52,7 @@
             android:gravity="center_vertical"
             android:paddingLeft="20dip"
             android:text="@string/exit"
-            android:textColor="#FFFFFF"
+            android:textColor="#00FFFF"
             android:textSize="15sp" >
         </TextView>
 
@@ -72,7 +73,7 @@
             android:layout_gravity="center_vertical|right"
             android:gravity="center"
             android:text="@string/set"
-            android:textColor="#FFFFFF"
+            android:textColor="#00FFFF"
             android:textSize="15sp" >
         </TextView>
     </FrameLayout>

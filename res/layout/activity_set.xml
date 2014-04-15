@@ -65,7 +65,6 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-      
         android:orientation="vertical" >
 
         <TextView
@@ -106,39 +105,8 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="30dip"
-            android:gravity="center_vertical|left"
-            android:paddingLeft="10dp"
-            android:text="@string/about_app"
-            android:textColor="#888800"
-            android:textSize="15sp" />
-
-        <TextView
-            android:id="@+id/about_revision"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:clickable="true"
-            android:onClick="click_version"
-            android:paddingLeft="10dp"
-            android:text="@string/revision"
-            android:textColor="#058"
-            android:textSize="20sp" />
-
-        <TextView
-            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="10sp" />
-
-        <TextView
-            android:id="@+id/about_us"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:clickable="true"
-            android:onClick="click_us"
-            android:paddingLeft="10dp"
-            android:text="@string/us"
-            android:textColor="#058"
-            android:textSize="20sp" />
     </LinearLayout>
 
 </LinearLayout>

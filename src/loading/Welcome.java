@@ -4,6 +4,8 @@ import com.xg.mycollege.MainActivity;
 
 
 import com.xg.mycollege.R;
+import com.xg.timetable.TimetableMain;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
